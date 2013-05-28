@@ -434,7 +434,7 @@ public class GameLevel extends ManagedGameScene implements IOnSceneTouchListener
 			}
 		};
 		
-		stickTouchArea.setSize( mPoolCue.getHeight() /1/2f,mPoolCue.getWidth() * 4);
+		stickTouchArea.setSize( mPoolCue.getHeight() /1.2f,mPoolCue.getWidth() * 4);
 		stickTouchArea.setAnchorCenterY(1);
 		this.registerTouchArea(stickTouchArea);
 		

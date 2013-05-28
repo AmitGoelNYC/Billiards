@@ -22,7 +22,7 @@ public class PoolBall extends AnimatedSprite{
 	public float timeGreater = 0;  
 	public Body body;
 	public float timeBallPocketed = -1;
-	public final FixtureDef objectFixtureDef = PhysicsFactory.createFixtureDef(1, .8f, 0.2f);
+	public final FixtureDef objectFixtureDef = PhysicsFactory.createFixtureDef(1, .65f, 0.2f);
 	
 	public PoolBall(float pX, float pY, ITiledTextureRegion pTiledTextureRegion, VertexBufferObjectManager vertexBufferObjectManager,
 			PhysicsWorld pWorld) {
